@@ -1,0 +1,85 @@
+.mainpic{
+
+	
+	background: url('images/mainpic.jpg') ;
+	height: 200px;
+	width: 400px;
+	
+	border: 3px solid white;
+
+}
+
+body{
+	background-color: black;
+	width: 410px;
+	color: #FFFFFF;
+	margin: auto;
+
+}
+.selector{
+	display: inline-block;
+	position: relative;
+}
+
+.container{
+	
+margin: auto auto;
+}
+.country{
+	width: 240px;
+}
+.border{
+	border: 3px white solid;
+	width: 400px;
+	margin-top: 20px;
+	height: 225px;
+	
+	text-align: center;
+
+}
+
+
+.art{
+	border: 1px white solid;
+	/*background-image: url('images/mainpic.jpg'); */
+	height: 64px;
+	width: 64px;
+	
+	margin: 14px auto;
+}
+.playsong{
+	height: 32px;
+	width: 180px;
+	background-color: #74c0cf;
+	
+	margin: 7px auto 0px;
+	border-radius: 3px;
+	text-align: center;
+	
+}
+
+.playimage{
+	background-image: url('images/play.jpg')  ;
+	height: 32px;
+	width: 32px;
+	float: left;
+	display: inline;
+	margin-right: 13px;
+}
+.bandname{
+	
+	color: blue;
+	text-decoration: none;
+
+}
+.a { cursor: pointer;
+
+}
+
+.message{
+	color: white;
+}
+
+.hidden{
+	display: none;
+}
